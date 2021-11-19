@@ -1,0 +1,41 @@
+.conteiner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 80px;
+  padding: 20px;
+  max-width: 700px;
+  background-color: #2a2d30;
+}
+.btn-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  padding: 9px 2px;
+  margin: 6px;
+  background: linear-gradient(to right, #bdd5e6, #ecacd1, #e6ebac);
+  border-radius: 15px;
+}
+.item a {
+  padding: 8px 20px;
+  background: linear-gradient(to right, #bdd5e6, #ecacd1, #e6ebac);
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+}
+.item a:hover {
+  padding: 8px 20px;
+  background: #dbd4df;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #ae48e9;
+}
+
+.logo img {
+  max-height: 80px;
+}
